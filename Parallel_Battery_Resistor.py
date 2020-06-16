@@ -41,5 +41,5 @@ for i in vbyr:
     
 Veq = Req*sumvinvr
 
-print("R equivalent = ",Req)
-print("V equivalent = ",Veq)
+print("R equivalent = ",Req," ohms")
+print("V equivalent = ",Veq," volts")
