@@ -1,6 +1,6 @@
 #2018eeb1150@iitrpr.ac.in
 
-### Battery-Resistor Parallel Combinations
+### Inverse Wheatstone Bridge
 
 n = int(input("Enter the number of battery- resistor branches : "))
 r = []
@@ -8,11 +8,11 @@ v = []
 i=1
 while i<=n:
     print("Enter the value of resistance in ",i," branch in ohms : ")
-    a = int(input())
+    a = float(input())
     r.append(a)
     
     print("Enter the value of battery in ",i," branch in volts : ")
-    a = int(input(""))
+    a = float(input(""))
     v.append(a)
     
     i=i+1
